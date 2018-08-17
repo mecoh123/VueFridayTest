@@ -8,8 +8,7 @@
                 <router-view></router-view>
             </div>
         </div>
-
-    </div>
+</div>
 
 </template>
 
@@ -21,6 +20,12 @@ import HomePage from './home-page'
 import NavMenu from './nav-menu'
 import AboutUs from './about-us'
 
+import '@progress/kendo-ui'
+import '@progress/kendo-theme-default/dist/all.css'
+import { Grid, GridInstaller } from '@progress/kendo-grid-vue-wrapper'
+
+Vue.use(GridInstaller)
+
 Vue.component('counter-example', CounterExample);
 Vue.component('fetch-data', FetchData);
 Vue.component('home-page', HomePage);
@@ -31,6 +36,9 @@ export default {
     data() {
         return {
         }
+    }, 
+    components: {
+        Grid
     }
 }
 </script>
