@@ -26,6 +26,15 @@ import { Grid, GridInstaller } from '@progress/kendo-grid-vue-wrapper'
 
 Vue.use(GridInstaller)
 
+import '@progress/kendo-ui'
+import '@progress/kendo-theme-default/dist/all.css'
+
+import { Grid, GridInstaller } from '@progress/kendo-grid-vue-wrapper'
+import { DataSource, DataSourceInstaller } from '@progress/kendo-datasource-vue-wrapper'
+
+Vue.use(GridInstaller)
+Vue.use(DataSourceInstaller)
+
 Vue.component('counter-example', CounterExample);
 Vue.component('fetch-data', FetchData);
 Vue.component('home-page', HomePage);
@@ -34,12 +43,13 @@ Vue.component('about-us', AboutUs);
 
 export default {
     data() {
-        return {
+        return {             
         }
-    }, 
+    },
     components: {
-        Grid
-    }
+        Grid,
+        DataSource
+    }    
 }
 </script>
 

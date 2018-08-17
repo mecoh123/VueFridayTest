@@ -33,13 +33,14 @@
 
         <strong>Contact us today: </strong>
         <p><a href="mailto:hello@devhelp.online">Hello@DevHelp.Online</a></p>
+        
     </div>
 </template>
 
 <script>
-export default {
+export default {    
     data() {
-        return {
+        return {            
         }
     },
 }

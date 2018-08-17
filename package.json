@@ -9,6 +9,10 @@
   },
   "dependencies": {
     "@progress/kendo-dateinputs-vue-wrapper": "^2018.2.620",
+    "@progress/kendo-datasource-vue-wrapper": "^2018.2.620",
+    "@progress/kendo-grid-vue-wrapper": "^2018.2.620",
+    "@progress/kendo-theme-default": "^2.54.1",
+    "@progress/kendo-ui": "^2018.2.806",
     "axios": "^0.15.3",
     "core-js": "^2.4.1",
     "font-awesome": "^4.6.3",
