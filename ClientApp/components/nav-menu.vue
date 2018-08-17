@@ -8,7 +8,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                <a class="navbar-brand" href="/">ASP.NET Core with Vue.js 2</a>
+                <a class="navbar-brand" href="/">VueFriday Test</a>
             </div>
             <div class="clearfix"></div>
             <transition name="slide">
