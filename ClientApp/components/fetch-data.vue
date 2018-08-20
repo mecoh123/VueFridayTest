@@ -1,4 +1,4 @@
-﻿<template>
+<template>
     <div>
         <h1>Weather forecast</h1>
 
@@ -45,10 +45,10 @@ export default {
         // TypeScript can also transpile async/await down to ES5
         try {
             let response = await this.$http.get('/api/SampleData/WeatherForecasts')
-            console.log(response.data);
+            // console.log(response.data);
             this.forecasts = response.data;
         } catch (error) {
-            console.log(error)
+            // console.log(error)
         }
         // Old promise-based approach
         //this.$http

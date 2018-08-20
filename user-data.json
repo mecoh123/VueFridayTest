@@ -1,0 +1,54 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "first-name": "juan",
+            "middle-name": "cruz",
+            "last-name": "dela cruz",
+            "birthday": "1991/12/12",
+            "gender": "m",
+            "status": "single",
+            "location": "Philippines"
+        },
+        {
+            "id": 2,
+            "first-name": "narciso",
+            "middle-name": "pepe",
+            "last-name": "dela torre",
+            "birthday": "1997/01/12",
+            "gender": "m",
+            "status": "single",
+            "location": "Philippines"
+        },
+        {
+            "id": 3,
+            "first-name": "juana",
+            "middle-name": "santos",
+            "last-name": "garcia",
+            "birthday": "1984/06/07",
+            "gender": "f",
+            "status": "single",
+            "location": "Philippines"
+        },
+        {
+            "id": 4,
+            "first-name": "omar",
+            "middle-name": "segundo",
+            "last-name": "zamora",
+            "birthday": "1985/02/06",
+            "gender": "m",
+            "status": "single",
+            "location": "Philippines"
+        },
+        {
+            "id": 5,
+            "first-name": "bettany",
+            "middle-name": "urdaneta",
+            "last-name": "reyes",
+            "birthday": "1998/10/29",
+            "gender": "f",
+            "status": "single",
+            "location": "Philippines"
+        }
+    ]
+}
