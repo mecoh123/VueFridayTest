@@ -19,6 +19,7 @@ import FetchData from './fetch-data'
 import HomePage from './home-page'
 import NavMenu from './nav-menu'
 import AboutUs from './about-us'
+import UserPage from './user-page'
 
 import '@progress/kendo-ui'
 import '@progress/kendo-theme-default/dist/all.css'
@@ -29,11 +30,13 @@ import { DataSource, DataSourceInstaller } from '@progress/kendo-datasource-vue-
 Vue.use(GridInstaller)
 Vue.use(DataSourceInstaller)
 
+
 Vue.component('counter-example', CounterExample);
 Vue.component('fetch-data', FetchData);
 Vue.component('home-page', HomePage);
 Vue.component('nav-menu', NavMenu);
-Vue.component('about-us', AboutUs);
+Vue.component('about-us',  AboutUs);
+Vue.component('user-page', UserPage);
 
 export default {
     data() {

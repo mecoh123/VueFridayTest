@@ -15,7 +15,9 @@ module.exports = (env) => {
                 'components': path.resolve(__dirname, './ClientApp/components'),
                 'views': path.resolve(__dirname, './ClientApp/views'),
                 'utils': path.resolve(__dirname, './ClientApp/utils'),
-                'api': path.resolve(__dirname, './ClientApp/store/api')
+                'api': path.resolve(__dirname, './ClientApp/store/api'),
+                'mixins': path.resolve(__dirname, './ClientApp/mixins'),
+                'globalmodule': path.resolve(__dirname, './ClientApp/custom_modules') 
             }
         },
         output: {
